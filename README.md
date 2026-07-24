@@ -1,36 +1,80 @@
-# 🚀 Algorithms Problem Solving - Level 5
-## Course 13 from Dr. Mohamed Abu Hadehood's Roadmap
+# 🚀 Course 13 - Algorithms Problem Solving Level 5
+## Dr. Mohamed Abu Hadehood's Professional Roadmap
 
 ---
 
 ## 📌 Overview
 
-This repository contains advanced **problem-solving solutions** and algorithmic implementations for **Course 13 (Level 5)** from the professional development roadmap by **Dr. Mohamed Abu Hadehood**.
+This repository contains **complete solutions and implementations** for **Course 13: Advanced Algorithms Problem Solving (Level 5)** from Dr. Mohamed Abu Hadehood's comprehensive professional development roadmap.
 
-The course focuses on mastering advanced data structures and algorithms essential for competitive programming and technical interviews.
-
----
-
-## 🎯 What You'll Find Here
-
-✅ **Advanced Algorithm Implementations** - Optimized C++ solutions  
-✅ **Complex Problem Patterns** - Real-world problem-solving techniques  
-✅ **Data Structure Deep Dives** - From arrays to advanced structures  
-✅ **Competitive Programming Solutions** - Interview-ready code  
-✅ **Performance Optimization** - Time & Space complexity analysis  
-✅ **Well-Documented Code** - Easy to understand and learn from  
+**The course covers 8 major projects** with multiple extensions and real-world problem-solving scenarios, designed to master advanced algorithmic thinking and competitive programming skills.
 
 ---
 
-## 💡 Key Topics Covered
+## 📚 Course Structure
 
-- **Graph Algorithms** - DFS, BFS, Dijkstra, Floyd-Warshall, etc.
-- **Dynamic Programming** - DP optimization techniques
-- **Advanced Trees** - Segment Trees, Fenwick Trees
-- **String Algorithms** - Pattern matching, KMP, Z-algorithm
-- **Mathematical Algorithms** - Number theory, combinatorics
-- **Greedy Algorithms** - Optimal selection strategies
-- **Backtracking & Recursion** - Complex search problems
+### ✅ Introduction & Preparation
+- **Important Introduction** - Course overview and goals
+- **Course Telegram Group** - Community support
+- **Before You Start** - Prerequisites and setup guide
+
+---
+
+### 🎯 8 Main Projects
+
+#### **Project 1** - Foundation & Core Concepts
+- **Main Requirements** + Solution
+- **8 Extensions** with individual requirements and solutions
+- **Total:** 18 complete lessons
+- **Focus:** Building strong algorithmic foundations
+
+#### **Project 2** - Advanced Problem Patterns
+- **Main Requirements** + Solution  
+- **Extensions 1-7** bundled with requirements and solutions
+- **Total:** 4 complete lessons
+- **Focus:** Complex problem-solving strategies
+
+#### **Project 3** - Data Structure Mastery
+- **Main Requirements** + Solution
+- **Total:** 2 complete lessons
+- **Focus:** Advanced data structure implementation
+
+#### **Project 4** - Algorithm Optimization
+- **Main Requirements** + Solution
+- **11 Extensions** with detailed requirements and solutions
+- **Total:** 16 complete lessons
+- **Focus:** Performance optimization and efficiency
+
+#### **Project 5** - Competitive Programming Patterns
+- **Main Requirements** + Solution
+- **Total:** 2 complete lessons
+- **Focus:** Contest-style problem solving
+
+#### **Project 6** - Problem Solving Techniques
+- **Main Requirements** + Solution
+- **Total:** 2 complete lessons
+- **Focus:** Multiple approaches to same problem
+
+#### **Project 7** - Advanced Algorithms
+- **Main Requirements** + Solution
+- **Total:** 2 complete lessons
+- **Focus:** Complex algorithmic concepts
+
+#### **Project 8** - Capstone Project
+- **Main Requirements** + Solution
+- **Total:** 2 complete lessons
+- **Focus:** Integrating all learned concepts
+
+---
+
+## 💡 What You'll Learn
+
+✅ **Advanced Algorithm Design** - Optimal solutions to complex problems  
+✅ **Data Structure Mastery** - Efficient implementation and usage  
+✅ **Problem-Solving Strategies** - Multiple approaches and optimizations  
+✅ **Competitive Programming** - Contest-level problem solving  
+✅ **Code Optimization** - Time and space complexity analysis  
+✅ **Real-World Applications** - Practical algorithmic thinking  
 
 ---
 
@@ -41,7 +85,8 @@ The course focuses on mastering advanced data structures and algorithms essentia
 ![Problem%20Solving](https://img.shields.io/badge/Problem%20Solving-blue?style=for-the-badge)
 
 **Language:** C++ (100%)  
-**Focus:** Competitive Programming & Technical Interviews  
+**Level:** Intermediate to Advanced  
+**Format:** Project-based learning with incremental challenges  
 
 ---
 
@@ -50,129 +95,214 @@ The course focuses on mastering advanced data structures and algorithms essentia
 ```
 13---Algorithms-Problem-Solving-Level-5/
 ├── README.md
-├── algorithms/          # Core algorithm implementations
-├── problems/            # Problem solutions & explanations
-├── data_structures/     # Advanced DS implementations
-├── competitive_prog/    # Contest-style solutions
-└── examples/            # Usage examples & test cases
+├── Project_1/
+│   ├── Solution.cpp
+│   ├── Extension_1/ to Extension_8/
+│   └── ...
+├── Project_2/
+│   ├── Solution.cpp
+│   ├── Extensions_1_to_7/
+│   └── ...
+├── Project_3/ to Project_8/
+│   ├── Solution.cpp
+│   └── ...
+└── Notes/
+    └── Learning resources and references
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Use This Repository
 
-### Prerequisites
-- C++ Compiler (C++11 or higher)
-- Basic understanding of algorithms and data structures
+### 1. **Study the Requirements First**
+   - Read each project's requirements carefully
+   - Understand the problem constraints and goals
+   - Try solving it **without** looking at the solution
 
-### How to Use
+### 2. **Implement Your Own Solution**
+   - Write your own C++ code
+   - Test with provided examples
+   - Optimize for time and space complexity
 
-1. **Clone the repository**
+### 3. **Compare with Solutions**
+   - Review the provided solutions
+   - Understand different approaches
+   - Learn optimization techniques
+
+### 4. **Work Through Extensions**
+   - Each project has multiple extensions
+   - Extensions increase in difficulty
+   - Apply learned patterns to new scenarios
+
+### 5. **Practice & Repeat**
+   - Code along with the tutorials
+   - Try variations of each problem
+   - Build your problem-solving intuition
+
+---
+
+## 🎓 Prerequisites
+
+- **C++ Knowledge** - Comfortable with C++ syntax and basics
+- **Algorithm Fundamentals** - Basic data structures and algorithms
+- **Problem-Solving Mindset** - Willingness to think deeply
+- **C++ Compiler** - GCC, Clang, or MSVC
+
+### Setup
 ```bash
+# Clone the repository
 git clone https://github.com/OmarAmir27/13---Algorithms-Problem-Solving-Level-5.git
 cd 13---Algorithms-Problem-Solving-Level-5
-```
 
-2. **Compile and run**
-```bash
-g++ -o solution problem_solution.cpp
+# Compile a solution
+g++ -o solution Project_1/Solution.cpp -std=c++17
+
+# Run
 ./solution
 ```
 
-3. **Study the solutions**
-- Read through the code comments
-- Understand the approach and complexity
-- Practice implementing similar problems
+---
+
+## 📊 Course Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Projects** | 8 |
+| **Total Lessons** | 48+ |
+| **Extensions** | 30+ |
+| **Language** | C++ |
+| **Level** | Advanced |
+| **Estimated Duration** | 40-60 hours |
 
 ---
 
-## 📚 Learning Path
+## 🎯 Learning Outcomes
 
-This course follows a structured progression:
+After completing this course, you will be able to:
 
-1. **Foundation Review** - Refresh core concepts
-2. **Advanced Patterns** - Learn sophisticated techniques
-3. **Problem-Solving Strategies** - Master multiple approaches
-4. **Contest Problems** - Real competitive programming challenges
-5. **Interview Preparation** - FAANG-level questions
-
----
-
-## 💪 Why This Repository?
-
-🎓 **Educational Excellence** - Comprehensive & well-organized  
-⚡ **Performance Focus** - Optimized solutions with complexity analysis  
-🔍 **Clear Explanations** - Comments and documentation for every solution  
-🏆 **Interview Ready** - Solutions aligned with top tech company standards  
-📈 **Progressive Difficulty** - From intermediate to advanced levels  
+✅ Design efficient algorithms for complex problems  
+✅ Choose the right data structure for each problem  
+✅ Optimize code for time and space complexity  
+✅ Solve competitive programming problems  
+✅ Approach technical interviews with confidence  
+✅ Apply algorithmic patterns to real-world scenarios  
 
 ---
 
-## 🎓 About the Course
+## 🌟 Key Highlights
 
-This repository is part of **Course 13** from Dr. Mohamed Abu Hadehood's comprehensive roadmap for aspiring developers and competitive programmers.
-
-**Dr. Mohamed Abu Hadehood** is a renowned educator who has mentored thousands of students in:
-- Competitive Programming
-- Algorithm Design
-- Data Structures
-- Software Engineering Excellence
-
----
-
-## 📊 Repository Stats
-
-- **Language:** C++
-- **Level:** Intermediate to Advanced
-- **Time Investment:** ~40-60 hours per module
-- **Ideal For:** Students, Job Seekers, Competitive Programmers
+🔥 **48+ Complete Lessons** - Comprehensive coverage  
+📈 **Progressive Difficulty** - From foundations to advanced  
+💪 **Multiple Extensions** - Reinforce learning with variations  
+🏆 **Interview-Ready** - Aligned with FAANG standards  
+📝 **Well-Documented** - Clear explanations and comments  
+⚡ **Performance-Focused** - Optimization at every step  
 
 ---
 
-## 🤝 Contributing
+## 👨‍🏫 About Dr. Mohamed Abu Hadehood
 
-If you find this repository helpful:
+Dr. Mohamed Abu Hadehood is a renowned educator and mentor who has created a comprehensive roadmap for aspiring developers and competitive programmers. His structured approach to teaching algorithms and problem-solving has helped thousands of students:
 
-⭐ **Star this repository** - Help others discover it  
-🔄 **Share with friends** - Let's grow this community  
-💬 **Leave feedback** - Help improve the content  
-
----
-
-## 📞 Connect & Follow
-
-📌 **GitHub:** [@OmarAmir27](https://github.com/OmarAmir27)  
-🎯 **Focus:** Algorithms, Problem Solving & Competitive Programming  
-
-Follow my journey as I work through advanced problem-solving! Check out my other projects and latest work.
+- Master data structures and algorithms
+- Succeed in technical interviews
+- Win competitive programming contests
+- Build software engineering excellence
 
 ---
 
-## 📝 License
+## 🤝 How to Get the Most Out of This Course
 
-This repository is open for learning purposes.
+### Do's ✅
+- ✅ **Code along** with the solutions
+- ✅ **Solve problems yourself first** before viewing solutions
+- ✅ **Understand complexity analysis** for each solution
+- ✅ **Try variations** and test edge cases
+- ✅ **Take notes** on key patterns and techniques
+- ✅ **Join the Telegram group** for community support
 
----
-
-## 🎯 Next Steps
-
-1. ✅ Fork this repository
-2. ✅ Explore the problem solutions
-3. ✅ Try solving problems on your own first
-4. ✅ Compare your solutions with mine
-5. ✅ Share your progress & learnings
-
----
-
-## 🔥 Pro Tips
-
-💡 **Don't just read** - Code along with the examples  
-⏱️ **Time yourself** - Practice under constraints  
-📝 **Take notes** - Document your learning  
-🎯 **Solve variations** - Apply patterns to new problems  
+### Don'ts ❌
+- ❌ **Skip requirements** - Read them carefully
+- ❌ **Copy-paste solutions** without understanding
+- ❌ **Rush through projects** - Take your time
+- ❌ **Ignore extensions** - They reinforce learning
+- ❌ **Give up on hard problems** - Persist and learn
 
 ---
 
-**Happy Problem Solving! 🚀**
+## 💬 Community & Support
 
-*Last Updated: 2026 | Part of Dr. Mohamed Abu Hadehood's Professional Development Roadmap*
+📱 **Telegram Group** - Connect with other learners (link in course)  
+🔗 **GitHub Issues** - Ask questions and discuss solutions  
+⭐ **Star & Share** - Help others discover this resource  
+
+---
+
+## 📝 Tips for Success
+
+1. **Daily Practice** - Consistency beats intensity
+2. **Time Yourself** - Simulate interview conditions
+3. **Analyze Complexity** - Understand Big O notation
+4. **Read Others' Code** - Learn from different approaches
+5. **Teach Others** - Explain solutions to reinforce learning
+6. **Debug Carefully** - Use tools and print debugging
+7. **Review Often** - Revisit old problems regularly
+
+---
+
+## ✨ What's Inside
+
+Each project contains:
+
+📌 **Requirements** - Clear problem statement and constraints  
+💻 **Solution** - Optimized C++ implementation  
+🔄 **Extensions** - Additional challenges and variations  
+📚 **Explanations** - Comments explaining the approach  
+⏱️ **Complexity Analysis** - Time and space considerations  
+
+---
+
+## 🎁 Bonus Resources
+
+- Complexity cheat sheet
+- Common algorithm patterns
+- Interview preparation guide
+- Debugging tips and tricks
+- Practice problem recommendations
+
+---
+
+## 🚀 Next Steps
+
+1. **⭐ Star this repository** - Shows appreciation and helps discovery
+2. **📌 Bookmark this page** - Easy reference
+3. **🔄 Share with friends** - Spread the knowledge
+4. **💪 Start with Project 1** - Begin your learning journey
+5. **📖 Join the community** - Connect with other learners
+
+---
+
+## 📞 Connect With Me
+
+🔗 **GitHub:** [@OmarAmir27](https://github.com/OmarAmir27)  
+💼 **Following:** Algorithms, Problem Solving, Competitive Programming  
+
+Follow my journey as I complete Dr. Abu Hadehood's roadmap and share my learning!
+
+---
+
+## 📄 License
+
+This repository is for educational purposes. Use freely for learning and reference.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to **Dr. Mohamed Abu Hadehood** for creating an amazing curriculum that bridges the gap between theoretical knowledge and practical problem-solving skills.
+
+---
+
+**Ready to master advanced algorithms? Let's get started! 🚀**
+
+*Last Updated: 2026 | Course: 13 - Level 5 | Part of Dr. Mohamed Abu Hadehood's Professional Roadmap*
